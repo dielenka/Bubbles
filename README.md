@@ -104,7 +104,7 @@ cv::dilate(dist, dist, element2);
 cv::Mat final = dist + src2;
 ```
 
-![]("images/comb mask.PNG")
+![]("images/comb_mask.PNG")
 
 I used dilatation again to connect some small lines together, counted the contours from the combined mask and have drawn them on the original image.
 
@@ -133,8 +133,8 @@ for (auto i = 0; i < contours3.size(); ++i)
 }
 ```
 
-![]("images/dilate final.PNG")
-![]("images/found bubbles.PNG")
+![]("images/dilate_final.PNG")
+![]("images/found_bubbles.PNG")
 
 Last step was to print the resulting count.
 
